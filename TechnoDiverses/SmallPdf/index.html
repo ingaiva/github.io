@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Copie non dynamique de la page "SmallPdf"</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="retourAccuil p-3">
+        <a href="../../index.html">
+            <i class="fa fa-home fa-2x" aria-hidden="true" style="margin-right: 5px; color: rgb(73, 192, 178);"></i>
+            Accueil
+        </a> 
+        <i class="fa fa-angle-double-right " style="margin: 10px;"></i>
+        <a href="#" style="color: rgb(73, 192, 178);"> (Techniques combinées) Copie non dynamique de la page SmallPdf</a>      
+    </div>
+
+    <nav class="navbar navbar-expand-md navbar-light justify-content-between">
+
+        <a class="navbar-brand" href="#"><img src="img/logoSmallPdf.svg" alt=""></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="menuCenter navbar-nav mr-auto" style="font-size: small;">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="img/logoOutils.png" alt=""><span class="txtOutils">Outils</span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Compresser PDF</a>
+                        <a class="dropdown-item" href="#">Convertisseur PDF</a>
+                        <div class="dropdown-divider"></div>
+                        <!-- <a class="dropdown-item" href="#">Something else here</a>                         -->
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Compresser</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Convertir</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Fusionner</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Modifier</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Signer</a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item  d-sm-block d-md-none"><button class="btn btn-primary  bg-primary btn-block my-1"
+                        type="submit" style="margin-left: 5px;">S'inscrire</button></li>
+                <li class="nav-item d-sm-block d-md-none"><button class="btn btn-outline-dark btn-block my-1"
+                        type="submit" style="margin-left: 5px; background-color: white;">Se connecter</button></li>
+                <div class="dropdown-divider d-sm-block d-md-none"></div>
+
+                <li class="nav-item active">
+                    <button class="btn btn-sm" type="submit"
+                        style="margin-left: 5px; background-color: white;">Tarifs</button>
+                </li>
+
+                <li class="nav-item active d-none d-sm-none d-md-block">
+                    <span class="vl"></span>
+                </li>
+                <li class="nav-item active d-none d-sm-none d-md-block">
+                    <button class="btn btn-sm" type="submit" style="margin-left: 5px; background-color: white;">Se
+                        connecter</button>
+                </li>
+                <li class="nav-item active d-none  d-sm-none d-md-block">
+                    <button class="btn btn-primary  bg-primary" type="submit" style="margin-left: 5px;">ESSAI
+                        GRATUIT</button>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="titreTop m-3">
+        <h1><img src="img/filesPlus.png" alt="" width="40px">Fusionner PDF</h1>
+        <p class="my-3" style="font-size: 22px;">Le plus simple pour fusionner vos fichiers PDF</p>
+    </div>
+    <div class="divPub d-none d-md-flex">
+        <div style="font-weight: bolder; font-size: x-large;">      
+            Plus de publicités gênantes!
+        </div>
+        <div>
+            <div class="btn btn-primary my-3 my-sm-0 bg-primary">Démarrer l'essai gratuit                
+            </div>
+        </div>
+    </div>
+
+
+    <div class="divChoixFichiers container">
+        <div class="divChoixFichiersIntern">
+            <div class="logoPdfChoix">
+                <img src="img/logoPdfGlisser.png" alt="">
+            </div>
+            <div class="ddownChoixFichiers dropdown m-3">
+                <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                    style="background-color: white; color: black;"><img src="img/filesAdd.png" width="24px" alt="">
+                    CHOISIR LES FICHIERS
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background-color: black;">
+                    <a class="dropdown-item" href="#" style="color: white;"><i class="fa fa-file" aria-hidden="true"
+                            style="margin-right: 10px;"></i>Depuis l'appareil</a>
+                    <a class="dropdown-item" href="#" style="color: white;"><i class="fa fa-dropbox" aria-hidden="true"
+                            style="margin-right: 10px;"></i>Depuis Dropbox</a>
+                    <a class="dropdown-item" href="#" style="color: white;"><i class="fa fa-google" aria-hidden="true"
+                            style="margin-right: 10px;"></i>Depuis Google Drive</a>
+                </div>
+            </div>
+
+
+            <div class="m-3" style="color: white;">
+                ou déposer les fichiers PDF ici
+            </div>
+        </div>
+    </div>
+
+    <div class="itemsInfo justify-content-center">
+        <div class="itemInfo">
+            <img src="img/ampoule.svg" alt="" width="40px">
+            <h4>Comment fusionner les fichiers PDF</h4>
+            <p>Glissez et déposez un ou plusieurs fichiers PDF ci-dessus. Dès que les pages sont visibles vous pouvez
+                les modifier. Enfin appuyez sur le bouton au bas et téléchargez le PDF.</p>
+        </div>
+        <div class="itemInfo">
+            <img src="img/fusionSecurise.svg" alt="" width="40px">
+            <h4>Fusion en ligne des PDF sécurisée</h4>
+            <p>Tous les fichiers chargés et créés sur nos serveurs sont effacés définitivement après une heure. Voir nos
+                règles sur la confidentialité pour en savoir plus.</p>
+        </div>
+        <div class="itemInfo">
+            <img src="img/pourWinMacLinux.svg" alt="" width="40px">
+            <h4>Pour Windows, Mac et Linux</h4>
+            <p>En glissant vos pages dans l’espace de l’éditeur vous pouvez les réorganiser ou supprimer des pages. Vous
+                pouvez aussi ajouter plusieurs PDF pour les fusionner ensemble et les combiner en un seul document.</p>
+        </div>
+        <div class="itemInfo">
+            <img src="img/cadenas.svg" alt="" width="40px">
+            <h4>Fusion de PDF facile avec aperçu</h4>
+            <p>Glissez et déposez un ou plusieurs fichiers PDF ci-dessus. Dès que les pages sont visibles vous pouvez
+                les modifier. Enfin appuyez sur le bouton au bas et téléchargez le PDF.</p>
+        </div>
+        <div class="itemInfo">
+            <img src="img/couteau.svg" alt="" width="40px">
+            <h4>Un service fiable</h4>
+            <p>Normalement, pour combiner des PDF ou pour ajouter une page à un PDF, vous devez acheter des logiciels
+                très chers. Ce service en ligne est sûr et sécurisé.</p>
+        </div>
+        <div class="itemInfo">
+            <img src="img/cloud.svg" alt="" width="40px">
+            <h4>Elaboration dans le cloud</h4>
+            <p>Nos serveurs dans le cloud gèrent la création des pdf pour vous dès que vous avez fusionné vos fichiers.
+                Votre ordinateur n'est pas occupé.</p>
+        </div>
+    </div>
+
+    <div class=" divNotes container-fluid border  ">
+        <span>
+            <strong>Évaluez cet outil</strong>
+        </span>
+        <span>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </span>
+        <span class="star"><strong>4,8</strong>/ 5 - 494 511 votes</span>
+    </div>
+
+    <div class="divBottomSm">
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn bg-light collapsed" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            Convertir et compresser
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <div class="itemBottomBtnH  "><img src="img/compressser.png" alt=""> Compresser PDF</div>
+                        <div class="itemBottomBtnH  "><img src="img/convertir.png" alt=""> Convertisseur PDF</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn bg-light collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                            aria-expanded="false" aria-controls="collapseTwo">
+                            Diviser et fusionner
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        <div class="itemBottomBtnH "><img src="img/diviser.png" alt=""> Diviser PDF</div>
+                        <div class="itemBottomBtnH "><img src="img/fusionner.png" alt=""> Fusionner PDF</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="heading3">
+                    <h5 class="mb-0">
+                        <button class="btn bg-light collapsed" data-toggle="collapse" data-target="#collapse3"
+                            aria-expanded="false" aria-controls="collapse3">
+                            Voir et modifier
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion">
+                    <div class="card-body">
+                        <div class="itemBottomBtnH "><img src="img/imgToReplace.png" alt=""> Modifier un PDF</div>
+                        <div class="itemBottomBtnH "><img src="img/imgToReplace.png" alt=""> Lecteur PDF</div>
+                        <div class="itemBottomBtnH "><img src="img/imgToReplace.png" alt=""> Partager un document
+                        </div>
+                        <div class="itemBottomBtnH "><img src="img/imgToReplace.png" alt=""> Numérotez les pages</div>
+                        <div class="itemBottomBtnH "><img src="img/imgToReplace.png" alt=""> Supprimer des pages PDF
+                        </div>
+                        <div class="itemBottomBtnH "><img src="img/imgToReplace.png" alt=""> Rotation PDF</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="heading4">
+                    <h5 class="mb-0">
+                        <button class="btn bg-light collapsed" data-toggle="collapse" data-target="#collapse4"
+                            aria-expanded="false" aria-controls="collapse4">
+                            Convertir depuis PDF
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
+                    <div class="card-body">
+                        <div class="itemBottomBtnH "><img src="img/imgToReplace.png" alt=""> PDF en Word</div>
+                        <div class="itemBottomBtnH "><img src="img/imgToReplace.png" alt=""> PDF en Excel</div>
+                        <div class="itemBottomBtnH "><img src="img/imgToReplace.png" alt=""> PDF en PPT</div>
+                        <div class="itemBottomBtnH "><img src="img/imgToReplace.png" alt=""> PDF en JPEG</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="heading5">
+                    <h5 class="mb-0">
+                        <button class="btn bg-light collapsed" data-toggle="collapse" data-target="#collapse5"
+                            aria-expanded="false" aria-controls="collapse5">
+                            Convertir en PDF
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion">
+                    <div class="card-body">
+                        <div class="itemBottomBtnH "><img src="img/imgToReplace.png" alt=""> Word en PDF</div>
+                        <div class="itemBottomBtnH "><img src="img/imgToReplace.png" alt=""> Excel en PDF</div>
+                        <div class="itemBottomBtnH "><img src="img/imgToReplace.png" alt=""> PPT en PDF</div>
+                        <div class="itemBottomBtnH "><img src="img/imgToReplace.png" alt=""> JPEG en PDF</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="heading6">
+                    <h5 class="mb-0">
+                        <button class="btn bg-light collapsed" data-toggle="collapse" data-target="#collapse6"
+                            aria-expanded="false" aria-controls="collapse6">
+                            Signer et sécurité
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordion">
+                    <div class="card-body">
+                        <div class="itemBottomBtnH "><img src="img/imgToReplace.png" alt=""> Signer un PDF</div>
+                        <div class="itemBottomBtnH "><img src="img/imgToReplace.png" alt=""> Déverrouiller PDF</div>
+                        <div class="itemBottomBtnH "><img src="img/imgToReplace.png" alt=""> Protéger un PDF</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="divBottom">
+        <div class="itemBottom">
+            <div class="itemBottomHeader">Convertir et compresser</div>
+            <div class="itemBottomBtn btn "><img src="img/compressser.png" alt=""> Compresser PDF</div>
+            <div class="itemBottomBtn btn "><img src="img/convertir.png" alt=""> Convertisseur PDF</div>
+        </div>
+        <div class="itemBottom">
+            <div class="itemBottomHeader">Diviser et fusionner</div>
+            <div class="itemBottomBtn btn"><img src="img/diviser.png" alt=""> Diviser PDF</div>
+            <div class="itemBottomBtn btn"><img src="img/fusionner.png" alt=""> Fusionner PDF</div>
+        </div>
+        <div class="itemBottom">
+            <div class="itemBottomHeader">Voir et modifier</div>
+            <div class="itemBottomBtn btn"><img src="img/imgToReplace.png" alt=""> Modifier un PDF</div>
+            <div class="itemBottomBtn btn"><img src="img/imgToReplace.png" alt=""> Lecteur PDF</div>
+            <div class="itemBottomBtn btn"><img src="img/imgToReplace.png" alt=""> Partager un document</div>
+            <div class="itemBottomBtn btn"><img src="img/imgToReplace.png" alt=""> Numérotez les pages</div>
+            <div class="itemBottomBtn btn"><img src="img/imgToReplace.png" alt=""> Supprimer des pages PDF</div>
+            <div class="itemBottomBtn btn"><img src="img/imgToReplace.png" alt=""> Rotation PDF</div>
+        </div>
+        <div class="itemBottom">
+            <div class="itemBottomHeader">Convertir depuis PDF</div>
+            <div class="itemBottomBtn btn"><img src="img/imgToReplace.png" alt=""> PDF en Word</div>
+            <div class="itemBottomBtn btn"><img src="img/imgToReplace.png" alt=""> PDF en Excel</div>
+            <div class="itemBottomBtn btn"><img src="img/imgToReplace.png" alt=""> PDF en PPT</div>
+            <div class="itemBottomBtn btn"><img src="img/imgToReplace.png" alt=""> PDF en JPEG</div>
+        </div>
+        <div class="itemBottom">
+            <div class="itemBottomHeader">Convertir en PDF</div>
+            <div class="itemBottomBtn btn"><img src="img/imgToReplace.png" alt=""> Word en PDF</div>
+            <div class="itemBottomBtn btn"><img src="img/imgToReplace.png" alt=""> Excel en PDF</div>
+            <div class="itemBottomBtn btn"><img src="img/imgToReplace.png" alt=""> PPT en PDF</div>
+            <div class="itemBottomBtn btn"><img src="img/imgToReplace.png" alt=""> JPEG en PDF</div>
+        </div>
+        <div class="itemBottom">
+            <div class="itemBottomHeader">Signer et sécurité</div>
+            <div class="itemBottomBtn btn"><img src="img/imgToReplace.png" alt=""> Signer un PDF</div>
+            <div class="itemBottomBtn btn"><img src="img/imgToReplace.png" alt=""> Déverrouiller PDF</div>
+            <div class="itemBottomBtn btn"><img src="img/imgToReplace.png" alt=""> Protéger un PDF</div>
+        </div>
+    </div>
+
+    <div class="divFooter container-fluid border ">
+        <div class="itemFooter"><a href="#">Tarifs</a></div>
+        <div class="itemFooter"><a href="#">Télécharger Smallpdf</a></div>
+        <div class="itemFooter"><a href="#">Confidentialité et conditions d'utilisation</a></div>
+
+        <div class="itemFooter"><a href="#">A propos</a></div>
+        <div class="itemFooter"><a href="#">Aide</a></div>
+        <div class="itemFooter"><a href="#">Blog</a></div>
+        <div class="itemFooter"><a href="#">Web Integration</a></div>
+        <div class="itemFooter"><a href="#">Developers</a></div>
+        <div class="itemFooter"><a href="#">Careers</a></div>
+    </div>
+
+</body>
+<footer>
+    <div style="padding: 30px 20px; color: lightslategray; display: flex; justify-content: space-between;">
+
+        <div>© 2020 Smallpdf GmbH -
+            Made with ♥ for the people of the internet.</div>
+        <div>
+            <span class="btn btn-light"><img src="img/globe.png" width="12px" alt=""> Francais</span>
+            <span class="btn "><img src="img/fb.jpg" alt="" width="25px"></span>
+            <span class="btn "><img src="img/tw.jpg" alt="" width="25px"></span>
+            <span class="btn "><img src="img/in.jpg" alt="" width="25px"></span>
+            <span class="btn "><img src="img/mail.jpg" alt="" width="25px"></span>
+        </div>
+    </div>
+
+
+</footer>
+
+</html>

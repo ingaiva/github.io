@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(241, 239, 239);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h3 {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.divContent {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.divItems {
+    padding: 0px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divItem {
+    border-radius: 5px;
+    min-height: 100px;
+    min-width: 200px;
+    overflow: auto;
+    width: 31%;
+    margin: 10px auto;
+    display: flex;
+}
+
+#divTitre {
+    margin: 10px auto;
+    background: url(img/BG.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#divTitre>p {
+    max-width: 150px;
+    margin: auto;
+}
+
+.divItems>#divTitre {
+    display: none;
+}
+
+.divContent>#divTitre {
+    margin: 30px auto;
+    width: 18%;
+}
+#fake{
+    display: none;
+}
+.logoDivItem {
+    margin: 10px 10px;
+    width: 15%;
+    text-align: center;
+}
+
+.divItemCenter {
+    width: 80%;
+    margin: 10px 10px;
+}
+
+.divBtn {
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 3px 8px;
+    background-color: white;
+    display: inline-block;
+    font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+    #divTitre {
+        width: 25%;
+    }
+    .divItems {
+        width: 73%;
+    }
+    .divItem {
+        width: 46%;
+    }
+}
+
+@media (max-width: 800px) {
+    .divItems {
+        width: 95%;
+        justify-content: space-between;
+    }
+    .divContent>#divTitre {
+        display: none;
+    }
+    .divItem {
+        width: 46%;
+        margin: 10px auto;
+    }
+    .divItems>#divTitre {
+        display: block;
+        width: 46%;
+        margin: 10px auto;    
+        background-position: center;           
+    }    
+    #fake{
+        display: block;
+        width: 46%;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 590px) {
+    .divContent {
+        display: flex;
+        flex-direction: column;
+    }
+    .divItems {
+        width: 95;
+        margin: auto;
+    }
+    .divItem {
+        width: 95%;
+        margin: 10px auto;
+    }
+    #fake{
+        display: none;        
+    }
+}

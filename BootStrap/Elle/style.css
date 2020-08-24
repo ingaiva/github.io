@@ -1,0 +1,64 @@
+ #divContainerTop, #divContainerMiddle, #containerList {
+     width: 100%;
+     max-width: 1200px;
+     margin: auto;
+ }
+
+ #divContainerTop, #divContainerMiddle {
+     text-align: center;
+ }
+
+ .date {
+     box-shadow: 0px 1px gray;
+     padding: 5px 20px 5px 20px;
+     margin: 10px auto;
+     font-style: italic;
+ }
+
+ .theme {
+     margin: 10px;
+ }
+
+ .infoTheme {
+     min-height: 70px;
+     font-family: "GeorgiaPro", 'Times New Roman', Times, serif;
+     font-size: 1.1em;
+ }
+
+ .itemList {
+     display: flex;       
+ }
+
+ .divTitreList {
+     text-align: center;
+ }
+
+ .titreList {
+     display: inline-block;
+     padding: 5px 70px;
+     box-shadow: 0px 3px black;
+     margin: 15px auto;
+ }
+
+ .numberList {
+     text-align: center;
+     margin: auto;
+     width: 10%;
+     min-width: 50px;
+     font-family: 'Playfair Display', serif;
+     font-size: 42px;
+ }
+
+ .divTextList {
+     width: 90%;
+     box-shadow: 0px 1px gray;
+     min-height: 75px;    
+     padding: 0px 0px 10px 0px;
+     display: flex;    
+ }
+
+ .textList {
+     width: 100%;
+     margin: auto 0px auto 0px;
+     
+ }

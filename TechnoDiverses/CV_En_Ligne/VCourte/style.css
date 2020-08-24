@@ -1,0 +1,119 @@
+body {
+    padding: 5px;
+}
+
+.monNom {
+    padding: 10px;
+    margin-bottom: 5px;   
+    border-radius: 40px 40px 0px 0px;
+    border-color: rgb(88, 89, 91);
+    border-width: 2px;
+    border-style: solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.presentation {
+    padding: 10px 20px;   
+}
+
+.textXXlarge {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.colorVert {
+    color: rgb(73, 192, 178);
+}
+
+.colorGris {
+    color: rgb(88, 89, 91);
+}
+
+.colorWhite {
+    color: white;
+}
+
+.bgColorVert {
+    background-color: rgb(73, 192, 178);
+}
+
+.bgColorGris {
+    background-color: rgb(88, 89, 91);
+}
+
+.textPresentation {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: large;
+    font-style: italic;
+}
+
+.headerPresentation {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: x-large;
+}
+
+.competencesContainer {
+    border-bottom-left-radius: 40px;
+    padding-bottom: 20px;
+}
+
+.headerCompetences {
+    padding-left: 20px;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+.competences {
+    padding: 10px 10px 10px 25px;
+    display: grid;
+    grid-template-columns: 50px 200px 100px;
+    row-gap: 20px;
+    column-gap: 10px;
+    align-items: center;
+}
+.divImgCompetence{
+    background-color: whitesmoke;
+    min-height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.imgCompetence {
+    width: 100%;    
+}
+
+.divCenter {
+    display: grid;
+    grid-template-columns: 420px auto;
+}
+
+.contactContainerGlobal {
+    border-bottom-right-radius: 40px;
+}
+
+.contactContainer {
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 40px;
+    height: 100%;
+}
+
+.headerContact {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.contact {
+    padding: 40px 10px 10px 20px;
+    font-size: large;
+    display: grid;
+    grid-template-columns: 25px auto;
+    column-gap: 5px;
+    row-gap: 20px;
+    align-items: center;
+}

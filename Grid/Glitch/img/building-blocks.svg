@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 98 93" style="enable-background:new 0 0 98 93;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#31CCD4;stroke:#222222;stroke-width:3;stroke-linejoin:round;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#222222;stroke-width:3;stroke-linejoin:round;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#222222;stroke:#222222;stroke-width:3;stroke-linejoin:round;}
+	.st3{fill:none;stroke:#222222;stroke-width:3;stroke-linejoin:round;}
+	.st4{fill:none;stroke:#222222;stroke-width:2;stroke-linejoin:round;}
+</style>
+<title>shapes</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="shapes" transform="translate(2.000000, 2.000000)">
+		<rect id="Rectangle-272" class="st0" width="87" height="83"/>
+		<polygon id="Stroke-1" class="st1" points="51,34.3 74.6,34.3 62.8,11.9 		"/>
+		<path id="Stroke-3" class="st2" d="M35.6,22.9C35.6,29,30.4,34,24,34c-6.4,0-11.6-5-11.6-11.1S17.6,11.9,24,11.9
+			C30.4,11.9,35.6,16.8,35.6,22.9L35.6,22.9z"/>
+		<polygon id="Star-1" class="st1" points="24.6,67.3 16.6,71.3 18.1,62.9 11.7,56.9 20.6,55.7 24.6,48 28.5,55.7 37.4,56.9 
+			31,62.9 32.5,71.3 		"/>
+		<rect id="Rectangle-271" x="52.4" y="50" class="st3" width="22.2" height="21.1"/>
+		<polygon id="Rectangle-272-Copy" class="st0" points="0.5,83.5 87,82.5 87,0 94,6 94,89 7,89 		"/>
+		<path id="Path-687" class="st4" d="M87,82.5l6.8,6.8"/>
+	</g>
+</g>
+</svg>

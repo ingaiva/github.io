@@ -1,0 +1,30 @@
+.containerGeneral {
+    align-content: center;
+    text-align: center;
+}
+
+.borderRed {
+    border: red solid 2px;
+}
+
+.borderGreen {
+    border: green solid 2px;
+}
+
+.borderBlue {
+    border: blue solid 2px;
+}
+
+.row {
+    min-height: 50px;
+}
+
+.borderWhite {
+    border: solid white 5px;
+    background-color: rgb(206, 203, 203);
+}
+
+.borderBrown {
+    border: brown solid 3px;
+    border-radius: 10px;
+}

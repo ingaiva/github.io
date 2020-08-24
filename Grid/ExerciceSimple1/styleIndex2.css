@@ -1,0 +1,136 @@
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 20px;
+}
+
+.mauve {
+    border: solid 1px rgb(135, 171, 250);
+    background-color: rgb(135, 171, 250);
+    grid-row: 1/4;
+}
+
+.vert {
+    border: solid 1px rgb(7, 185, 96);
+    background-color: rgb(7, 185, 96);
+    grid-row: 4/7;
+}
+
+.jauneVert {
+    border: solid 1px yellowgreen;
+    background-color: yellowgreen;
+    grid-row: 7/10;
+}
+
+.noire {
+    border: solid 1px black;
+    background-color: black;
+    grid-column: 3/6;
+    grid-row: 1;
+}
+
+.marron {
+    border: solid 1px rgb(165, 122, 96);
+    background-color: rgb(165, 122, 96);
+    grid-column: 3/5;
+    grid-row: 2/10;
+}
+
+.ciel {
+    border: solid 1px skyblue;
+    background-color: skyblue;
+    grid-column: 5;
+    grid-row: 2/10;
+}
+
+.gris {
+    border: solid 1px gray;
+    background-color: gray;
+    grid-row: 10/13;
+}
+
+.rouge {
+    border: solid 1px red;
+    background-color: red;
+    grid-column: 3;
+    grid-row: 10/13;
+}
+
+.beige {
+    border: solid 1px tan;
+    background-color: tan;
+    grid-column: 4;
+    grid-row: 10/13;
+}
+
+.jaune {
+    border: solid 1px yellow;
+    background-color: yellow;
+    grid-column: 5;
+    grid-row: 10/13;
+}
+
+.mauve, .vert, .jauneVert, .gris {
+    grid-column: 1/3;
+}
+
+.noire {
+    grid-column: 3/6;
+}
+/* 
+@media (max-width: 650px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;       
+    }
+    .wrapper>div {
+        min-height: 50px;
+    }
+    .jaune, .ciel {       
+        display: none;
+    }
+} */
+
+
+
+@media (max-width: 650px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 50px;
+    }
+    .mauve {
+        grid-row: 1;
+    }
+    .vert {
+        grid-row: 2;
+    }
+    .jauneVert {
+        grid-row: 3;
+    }
+    .gris {
+        grid-row: 4;
+    }
+    .noire {
+        grid-row: 5;
+    }
+    .marron {
+        grid-row: 6;
+    }
+    .rouge, .beige {
+        grid-row: 7;
+    }
+    .mauve, .vert, .jauneVert, .gris, .noire, .marron {
+        grid-column: 1/3;
+    }
+    .rouge {
+        grid-column: 1;
+    }
+    .beige {
+        grid-column: 2;
+    }
+    .jaune, .ciel {       
+        display: none;
+    }
+}

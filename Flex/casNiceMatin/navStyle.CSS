@@ -1,0 +1,57 @@
+
+#divNavBleu {
+    width: 100%;
+    background-color: rgb(27, 27, 107);
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+}
+
+#titreNiceMatin {
+    display: inline;
+    text-align: center;
+    margin-left: 35%;
+    padding: 0px;
+    color: white;
+}
+
+#menuBleu {
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+
+.navBtnJaune {
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.navBtnBleu {
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.navBtnBleu a {
+    display: block;
+    text-align: center;
+    padding: 4px 10px;
+    text-decoration: none;
+    border: white solid 1px;
+    color: white;
+    border-radius: 2px;
+}
+
+.navBtnJaune a {
+    display: block;
+    text-align: center;
+    padding: 4px 10px;
+    text-decoration: none;
+    border: yellow solid 1px;
+    background-color: yellow;
+    color: rgb(27, 27, 107);
+    border-radius: 2px;
+}
