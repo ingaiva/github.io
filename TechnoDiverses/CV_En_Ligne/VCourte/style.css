@@ -112,7 +112,7 @@ body {
     padding: 40px 10px 10px 20px;
     font-size: large;
     display: grid;
-    grid-template-columns: 25px auto;
+    grid-template-columns: 35px auto;
     column-gap: 5px;
     row-gap: 20px;
     align-items: center;
